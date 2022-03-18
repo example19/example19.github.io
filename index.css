@@ -1,0 +1,142 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #1b1f28;
+	color: #e9eaec;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2px;
+	margin: 2px 2px 2px 2px;
+
+	/* background-color: rgb(140, 224, 43); */
+}
+
+a {
+	background-color: #b10606;
+	border: 1px solid black;
+	height: 25px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 200;
+	color: #e9eaec;
+	background-color: #1b1f28;
+	border-radius: 5px;
+	border: 1px solid white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.active {
+	background-color: #1743a8;
+}
+
+@media (min-width: 700px) {
+	.wrapper {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+	}
+}
+
+h2 {
+	margin: 15px;
+}
+
+.word {
+	padding: 25px;
+}
+
+img {
+	max-width: calc(95vw);
+	margin: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+h3{
+	margin: 10px;
+}
+
+
+
+
+
+
+.table{
+	border: 1px solid #8f8f8f;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #1b1f28;
+	border: 1px solid #8f8f8f;
+}
+.table td{
+	padding: 4px;
+	border: 1px solid #8f8f8f;
+}
+.table tbody tr:nth-child(odd){
+	background: #281b23;
+}
+.table tbody tr:nth-child(even){
+	background: #1b1f28;
+}
+
+
+
+.www{
+	margin: 3px;
+}
+
+
+
+p{
+	text-indent: 10px
+}
+
+
+.russ{
+	color: rgb(151, 151, 151);
+}
+
+
+
+
+
+
+
+.tabl1 {
+	text-align: center;
+	font-family: 'Commissioner', sans-serif;
+	font-size: 14px;
+}
+
+
+
+.tabl2{
+	font-size: 14px;
+	font-family: 'Commissioner', sans-serif;
+}
+
